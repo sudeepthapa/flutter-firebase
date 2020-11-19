@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:messageapp/app/routes.dart';
-import 'package:messageapp/ui/auth/login.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       routes: Routes.generateRoute(),
-      initialRoute: Routes.login,
+      initialRoute: Routes.splash,
     );
   }
 }
